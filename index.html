@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          work: "'Work Sans', 'sans-serif'"
+        },
+        extend: {
+          colors: {
+            White: 'hsl(0, 0%, 100%)',
+            LightPink: 'hsl(275, 100%, 97%)',
+            GrayishPurple: 'hsl(292, 16%, 49%)',
+            DarkPurple:' hsl(292, 42%, 14%)',
+            Pink: '#AD28EB'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="w-full md:h-screen font-work text-base bg-LightPink flex items-center flex-col m-0 p-0">
+    <header class="w-full md:h-[15rem]  md:overflow-hidden">
+       <img src="./assets/images/background-pattern-desktop.svg" alt="background-pattern-desktop">
+  </header>
+      <main class="w-[20rem] md:w-[35rem] bg-White absolute top-[7rem] px-7 py-10 rounded-xl">
+        <section class="flex">
+          <img class="w-[2rem]" src="./assets/images/icon-star.svg" alt="icon-star">
+          <h1 class="text-5xl font-bold ml-5 text-DarkPurple">FAQs</h1>
+        </section>
+        <section class=" mt-6">
+          <div class="fold flex justify-between cursor-pointer">
+            <h4 class="text-DarkPurple font-bold hover:text-Pink">What is Frontend Mentor, and how will it help me?</h4>
+            <img class="plus " src="./assets/images/icon-plus.svg" alt="icon-plus">
+          </div>
+          <p class="hidden paragraph text-GrayishPurple text-[15px] font-[400] my-5"> Frontend Mentor offers realistic coding challenges to help developers improve their 
+            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+            all levels and ideal for portfolio building.</p>
+        </section>
+          
+        <section class=" mt-6">
+          <div class="fold flex justify-between cursor-pointer">
+            <h4 class="text-DarkPurple font-bold hover:text-Pink">Is Frontend Mentor free?</h4>
+            <img class="plus " src="./assets/images/icon-plus.svg" alt="icon-plus">
+          </div>
+          <p class="hidden paragraph text-GrayishPurple text-[15px] font-[400] my-5">Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+            option providing access to a range of projects suitable for all skill levels.</p>
+        </section>
+          
+        <section class=" mt-6">
+          <div class="fold flex justify-between cursor-pointer">
+            <h4 class="text-DarkPurple font-bold hover:text-Pink">Can I use Frontend Mentor projects in my portfolio?</h4>
+            <img class="plus " src="./assets/images/icon-plus.svg" alt="icon-plus">
+          </div>
+          <p  class="hidden paragraph text-GrayishPurple text-[15px] font-[400] my-5">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+            way to showcase your skills to potential employers!</p>
+        </section>
+        
+        <section class=" mt-6">
+          <div class="fold flex justify-between cursor-pointer">
+            <h4 class="text-DarkPurple font-bold hover:text-Pink">How can I get help if I'm stuck on a Frontend Mentor challenge?</h4>
+            <img class="plus " src="./assets/images/icon-plus.svg" alt="icon-plus">
+          </div>
+          <p class="hidden paragraph text-GrayishPurple text-[15px] font-[400] my-5">The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+            channel where you can ask questions and seek support from other community members.</p>
+        </section>
+        </main>
+  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
