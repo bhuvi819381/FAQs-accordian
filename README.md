@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/karan819381/FAQs-accordian.git]
-- Live Site URL: [https://karan819381.github.io/FAQs-accordian]
+- Solution URL: [https://github.com/bhuvi819381/FAQs-accordian.git]
+- Live Site URL: [https://bhuvi819381.github.io/FAQs-accordian]
 
 ## My process
 
@@ -43,4 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Karan Sharma](https://www.frontendmentor.io/profile/karan819381)
+- Frontend Mentor - [@Bhuvnesh Upadhyay](https://www.frontendmentor.io/profile/bhuvi819381)
